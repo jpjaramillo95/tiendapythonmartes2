@@ -17,6 +17,7 @@ while opcion != 5:
         print("Bienvenido a la creacion de tu lista de mercado")
         
         #creando claves y valores de un diccionario
+        producto={}
         producto["id"]=5
         producto["nombre"]=input("Digita el nombre del producto: ")
         producto["precio"]=int(input("Digita el precio del producto: "))
